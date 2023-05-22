@@ -21,6 +21,14 @@ body {
   grid-template-rows: 150px 1fr 50px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
 @media screen and (max-width: 480px) {
   body {
     grid-template-areas: 
@@ -46,6 +54,7 @@ nav {
 
 main {
   grid-area: main;
+  padding: 16px;
 }
 
 footer {
